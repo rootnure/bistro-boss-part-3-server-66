@@ -5,8 +5,6 @@ const { MongoClient, ServerApiVersion } = require('mongodb');
 require('dotenv').config();
 const port = process.env.PORT || 5000;
 
-// console.log(process.env.TOKEN_SECRET);
-
 // middleware
 app.use(cors());
 app.use(express.json());
